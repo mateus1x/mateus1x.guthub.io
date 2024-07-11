@@ -11,7 +11,7 @@
 #main {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
-    grid-template-rows: 80px 80px 165px 1600px;
+    grid-template-rows: 80px 80px 165px 1900px;
     
 }
 
