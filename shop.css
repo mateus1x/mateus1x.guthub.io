@@ -121,14 +121,16 @@ header svg {
     top: 28px;
 }
 
-#USA svg {
+#English svg {
     width: 7px;
-    vertical-align: middle;
+    height: 7px;
     margin-left: 3px;
 
+   
 }
-
-
+#svgUSA{
+    vertical-align: middle;
+}
 
 
 #profile {
@@ -136,7 +138,9 @@ header svg {
     justify-content:right;
     width: 10%;
 }
-
+#profile svg{
+    margin-right: 7px;
+}
 
 
 #logo {
@@ -272,7 +276,7 @@ header svg {
 #menu label {
     position: relative;
     width: 100%;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
 #menuremoto{
@@ -336,19 +340,18 @@ header svg {
 }
 
 #buscatotal {
-    width: 70%;
+    width: 65%;
     height: 50px;
     border: solid 0.1px rgba(0, 0, 0, 0.096);
     display: flex;
     align-items: center;
 }
-
 #categories {
     font-size: 16px;
     font-weight: 900;
-    padding-left: 18px;
+    padding-left: 15px;
     display: flex;
-    width: 36%;
+    width: 37%;
 }
 
 #categories svg {
@@ -368,7 +371,7 @@ header svg {
 #segundapartebusca {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 63%;
 
 }
 
@@ -399,7 +402,7 @@ header svg {
 }
 
 #telefone {
-    width: 30%;
+    width: 35%;
     padding-left: 2%;
     display: flex;
     align-items: center;
@@ -426,11 +429,13 @@ header svg {
 }
 
 #postelefone {
-    margin-left: 30px;
+
     height: 50px;
     align-items: center;
-    text-align: right;
+    position: right;
+    width: 70%;
 }
+
 
 #numero {
     font-size: 18px;
@@ -439,11 +444,14 @@ header svg {
     display: flex;
     align-items: center;
     width: 100%;
+    justify-content: right;
+
 }
 
 #suport {
     font-size: 14px;
     color: #6f6f6f;
+    text-align: right;
 }
 #banner {
     grid-column: 1/7;
