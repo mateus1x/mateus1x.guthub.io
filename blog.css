@@ -530,7 +530,8 @@ header svg {
     font-size: 16px;
     color: #6f6f6f;
     padding-left: 15px;
-    border-radius: 20px;    
+    border-radius: 20px;  
+    width:100%;
 }
 .imput-wrapper svg{
     width: 16px;
