@@ -7,7 +7,7 @@
     color: #7fad39;
 }
 
-#main {
+#principal {
     display: grid;
     grid-template-columns: 1.1fr 1.5fr 1.3fr 1.3fr 1.5fr 1.1fr;
     grid-template-rows: 80px 80px 431px 271px 280px 271px 32px 33px 271px 32px 33px 350px 300px 150px 150px 150px 470px;
@@ -1185,7 +1185,7 @@ header svg {
     display: flex;
     width: 100%;
 }
-#rodape-principal{
+#footer{
     display: grid;
     grid-template-columns: 1.1fr 1.5fr 1.3fr 1.3fr 1.5fr 1.1fr;
     grid-template-rows: 370px 70px;
