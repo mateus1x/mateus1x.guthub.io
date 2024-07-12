@@ -9,7 +9,7 @@
 
 #main {
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
+    grid-template-columns: 1.1fr 1.5fr 1.3fr 1.3fr 1.5fr 1.1fr;
     grid-template-rows: 80px 80px 431px 271px 280px 271px 32px 33px 271px 32px 33px 350px 300px 150px 150px 150px 470px;
 }
 
@@ -24,7 +24,7 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
-    grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
+    grid-template-columns: 1.1fr 1.5fr 1.3fr 1.3fr 1.5fr 1.1fr;
     grid-template-rows: 47px;
     display: grid;
 }
@@ -78,8 +78,7 @@ header svg {
     display: flex;
     align-items: center;
     margin-top: 7px;
-}
-
+}   
 #USA img {
     width: 27px;
     height: 14px;
@@ -1188,7 +1187,7 @@ header svg {
 }
 #rodape-principal{
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
+    grid-template-columns: 1.1fr 1.5fr 1.3fr 1.3fr 1.5fr 1.1fr;
     grid-template-rows: 370px 70px;
     background-color: #F3F6FA;
 }

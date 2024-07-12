@@ -8,7 +8,7 @@
 
 #main {
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
+    grid-template-columns: 1.1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
     grid-template-rows: 80px 80px 165px 100px 370px 230px 100px 350px 350px 350px 430px;
 }
 
@@ -23,7 +23,7 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
-    grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
+    grid-template-columns: 1.1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
     grid-template-rows: 47px;
     display: grid;
 }
@@ -848,6 +848,7 @@ header svg {
     display: flex;
     align-items: center;
     margin-left: 10px;
+    text-decoration: line-through;
 }
 #inferior-barra{
     grid-column: 3/6;
@@ -1459,7 +1460,7 @@ header svg {
 }
 #rodape-principal{
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
+    grid-template-columns: 1.1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
     grid-template-rows: 370px 70px;
     background-color: #F3F6FA;
 }

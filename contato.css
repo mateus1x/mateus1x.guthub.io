@@ -11,7 +11,7 @@
 
 #main {
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
+    grid-template-columns: 1.1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
     grid-template-rows: 80px 80px 165px 350px 500px 600px;
 
 }
@@ -27,7 +27,7 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
-    grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
+    grid-template-columns: 1.1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
     grid-template-rows: 47px;
     display: grid;
 }
@@ -79,7 +79,7 @@ header svg {
     display: flex;
 }
 
-#primeiraheader svg {
+#primeiraheader svg{
     vertical-align: middle;
     display: flex;
     align-items: center;
@@ -645,7 +645,7 @@ header svg {
 }
 #rodape-principal{
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
+    grid-template-columns: 1.1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
     grid-template-rows: 370px 70px;
     background-color: #F3F6FA;
 }

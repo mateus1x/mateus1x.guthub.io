@@ -10,8 +10,8 @@
 
 #main {
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
-    grid-template-rows: 80px 80px 165px 1900px;
+    grid-template-columns: 1.1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
+    grid-template-rows: 80px 80px 165px 1700px;
     
 }
 
@@ -26,7 +26,7 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
-    grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
+    grid-template-columns: 1.1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
     grid-template-rows: 47px;
     display: grid;
 }
@@ -79,7 +79,7 @@ header svg {
     vertical-align: middle;
     display: flex;
     align-items: center;
-
+    margin-top: 7px;
 }
 
 #USA img {
@@ -530,8 +530,7 @@ header svg {
     font-size: 16px;
     color: #6f6f6f;
     padding-left: 15px;
-    border-radius: 20px;  
-    width:100%;
+    border-radius: 20px;    
 }
 .imput-wrapper svg{
     width: 16px;
@@ -665,7 +664,7 @@ header svg {
 }
 #rodape-principal{
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
+    grid-template-columns: 1.1fr 1.5fr 1.3fr 1.3fr 1.5fr 0.9fr;
     grid-template-rows: 370px 70px;
     background-color: #F3F6FA;
 }
